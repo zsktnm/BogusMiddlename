@@ -5,9 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<PackageId>BogusMiddlename</PackageId>
-	<Version>0.1.0</Version>
+	<Version>0.1.1</Version>
 	<Authors>Zsktnm</Authors>
 	<Company>Zsktnm and Cat</Company>
+	<Title>BogusMiddlename</Title>
+	<PackageProjectUrl>https://github.com/zsktnm/BogusMiddlename</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/zsktnm/BogusMiddlename</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
