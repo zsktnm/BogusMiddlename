@@ -3,13 +3,13 @@
 Provides extension methods for [Bogus](https://link-url-here.org) library to generate middlenames. Uses internal Bogus datasets. 
 For locals which doesn't contains data for middlenames, firstnames will used as middlenames.
 
-# Install
+## Install
 
 You can obtain this package by **[Nuget](https://www.nuget.org/packages/BogusMiddlename)** 
 
-# Usage
+## Usage
 
-## Single values
+### Single values
 
 You can use the `Name` property with extension method `Middlename`:
 ```csharp
@@ -17,7 +17,7 @@ var faker = new Faker("ru");
 Console.WriteLine(faker.Name.Middlename());
 ```
 
-## Generate person
+### Generate person
 
 You can use `PersonWithMiddlename` extension method.  
 
