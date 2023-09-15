@@ -3,6 +3,10 @@
 Provides extension methods for [Bogus](https://link-url-here.org) library to generate middlenames. Uses internal Bogus datasets. 
 For locals which doesn't contains data for middlenames, firstnames will used as middlenames.
 
+# Install
+
+You can obtain this package by **[Nuget](https://www.nuget.org/packages/BogusMiddlename)** 
+
 # Usage
 
 ## Single values
