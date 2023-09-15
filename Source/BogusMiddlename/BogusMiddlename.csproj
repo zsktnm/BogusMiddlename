@@ -11,6 +11,7 @@
 	<Title>BogusMiddlename</Title>
 	<PackageProjectUrl>https://github.com/zsktnm/BogusMiddlename</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/zsktnm/BogusMiddlename</RepositoryUrl>
+	<Description>Provides extension methods for Bogus library to generate middlenames. Uses internal Bogus datasets. </Description>
   </PropertyGroup>
 
   <ItemGroup>
