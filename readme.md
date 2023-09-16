@@ -1,6 +1,6 @@
 # BogusMiddlename
 
-Provides extension methods for [Bogus](https://link-url-here.org) library to generate middlenames. Uses internal Bogus datasets. 
+Provides extension methods for [Bogus](https://github.com/bchavez/Bogus) library to generate middlenames. Uses internal Bogus datasets. 
 For locals which doesn't contains data for middlenames, firstnames will used as middlenames.
 
 ## Install
