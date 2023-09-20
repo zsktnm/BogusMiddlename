@@ -10,7 +10,6 @@
         /// Gets PersonWithMiddlename with new Middlename field. 
         /// Also adds Middlename to Fullname property.
         /// Generate middlenames for locales, which includes XXX_middle_name in Bogus datasets.
-        /// Other locales gets Firstname as Middlename
         /// </summary>
         public static PersonWithMiddlename PersonWithMiddlename(this Faker faker)
         {

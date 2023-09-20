@@ -5,10 +5,10 @@
         /// <summary>
         /// Gets middlename.         
         /// Generate middlenames for locales, which includes XXX_middle_name in Bogus datasets.
-        /// Other locales gets Firstname as Middlename
         /// </summary>
         /// <param name="gender">Gender: Male or Female. Random gender, if null (default value)</param>
         /// <returns>String with person's middlename</returns>
+        /// <exception cref="NotSupportedException">Throws when locale doesn't contains middlename data</exception>
         public static string Middlename(this Name name, Name.Gender? gender = null)
         {
             if (gender is null)
@@ -28,7 +28,7 @@
 
             if (middlenames is null)
             {
-                return name.FirstName(Name.Gender.Male);
+                throw new NotSupportedException($"Locale {name.Locale} doesn't contains middlename data" );
             }
 
             return name.Random.ArrayElement((BArray)middlenames);
