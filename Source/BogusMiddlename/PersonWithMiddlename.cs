@@ -12,7 +12,7 @@
         {
             base.Populate();
             MiddleName = DsName.Middlename(Gender);
-            FullName = $"{FirstName} {MiddleName} {LastName}";
+            FullName = $"{LastName} {FirstName} {MiddleName}";
         }
     }
 }
