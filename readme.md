@@ -1,7 +1,7 @@
 # BogusMiddlename
 
-Provides extension methods for [Bogus](https://github.com/bchavez/Bogus) library to generate middlenames. Uses internal Bogus datasets. 
-For locals which doesn't contains data for middlenames, firstnames will used as middlenames.
+Provides extension methods for [Bogus](https://github.com/bchavez/Bogus) library to generate middlenames. Uses internal Bogus datasets. Can be useful for Russian and Ukrainian locales.
+
 
 ## Install
 
@@ -19,7 +19,7 @@ Console.WriteLine(faker.Name.Middlename());
 
 ### Generate person
 
-You can use `PersonWithMiddlename` extension method.  
+You can use `PersonWithMiddlename` extension method.
 
 With single values:
 ```csharp
